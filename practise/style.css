@@ -1,0 +1,30 @@
+.box1{
+    background-color: aqua;
+    width: 70%;
+    position: static;
+    top: 10px;
+}
+.box2{
+    background-color: green;
+    width: 70%;
+    position: fixed;
+    bottom: 20px;
+}
+.box3{
+    background-color:yellow;
+    width: 60%;
+    position: sticky;
+    top: 10px;
+}
+.box4{
+    background-color:red;
+    width: 60%;
+    position: relative;
+    right: 10px;
+}
+.box5{
+    background-color:red;
+    width: 60%;
+    position: absolute;
+    right: 10px;
+}
