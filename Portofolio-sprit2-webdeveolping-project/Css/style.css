@@ -43,7 +43,7 @@ nav{
     display: flex;
 }
 .menu li a{
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 13px;
     color: rgb(141, 141, 141);
 }
@@ -65,4 +65,81 @@ nav{
     font-weight: bold;
     color: #FFF;
     transition: all ease 3s;
+}
+.my-detail{
+    font-family: calbri;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+}
+.my-detail p{
+    color:#6c707c;
+	font-size: 16px;
+}
+.my-detail h1{
+    font-family:Poppins;
+	font-size: 40px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+.cv-btn{
+    width: 200px;
+    height: 45px;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.cv-btn:hover{
+	background-color: #131313;
+    transition: ease all 3s;
+}
+/* about section */
+#about-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+}
+.about-text{
+    font-family: calbri;
+    width: 50%;
+}
+.about-text h1{
+    color: rgb(78, 238, 185);
+    font-size: 5rem;
+}
+.about-text h2{
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 400;
+}
+.about-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+}
+.about-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color:#17d1ac;
+}
+.about-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+    cursor: pointer;
 }
