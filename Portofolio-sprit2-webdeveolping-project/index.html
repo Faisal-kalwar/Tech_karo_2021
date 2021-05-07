@@ -21,10 +21,9 @@
             <div class="toggle"></div>
             <ul class="menu">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#portfoli-section">Portfolio</a></li>
+                <li><a href="#contact-form">Contact</a></li>
             </ul>
             <!--language-->
             <a href="#" class="lang">En</a>
@@ -48,8 +47,8 @@
     <!-- About Section -->
     <div id="about-section">
         <div class="about-text">
-            <h1>About Us</h1>
-            <h2>FreeLancing FrontEnd Developer</h2>
+            <h1>About Me</h1>
+            <h2>FrontEnd Developer</h2>
             <p>Enjoy the ultimate web design editor. Divi is like Photoshop or Sketch for the web. It brings an advanced design interface to WordPress that both beginners and experts will fall in love with. It's incredibly smart, super flexible, amazingly powerful and visual by nature. This is how designing for the web is meant to be done.</p>
             <button>View More Details</button>
         </div>
@@ -59,11 +58,97 @@
         </div>	    
     </div>
     <!-- Portfolio -->
-    <div class="portfoli-section">
+    <div id="portfoli-section">
         <h1 class="p-heading">Portfolio</h1>
-        <div class="box1">
+        <!--portfolio-container------------>
+        <div class="p-container">
+            <!--portfolio-box-1-------->
+	        <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Writting</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w1.jpg">
+            </div>
 
+            <!--portfolio-box-2-------->
+	        <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Ideas</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w2.jpg">
+            </div>
+
+            <!-- portfolio-box-3 -->
+            <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Music</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w3.jpg">
+            </div>
+            
+            <!--portfolio-box-4-------->
+	        <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Writting</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w4.jpg">
+            </div>
+
+            <!--portfolio-box-5-------->
+	        <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Ideas</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w5.jpg">
+            </div>
+
+            <!-- portfolio-box-6 -->
+            <div class="p-box">
+                <div class="overlay-text">
+                    <h1>Music</h1>
+                    <p>Client Project</p>
+                </div>
+                <!--bg-img------------->
+                <img src="images/w6.jpg">
+            </div>
         </div>
+    </div>
+    <!-- Contact-form -->
+    <div id="contact-form">
+        <form>
+          <div class="left-form">
+              <h1 class="c-heading"><font style="border-bottom: 3px solid #1ED98B;">Wirte </font>us</h1>
+              <!-- name -->
+              <div class="f-name">
+                  <font>Name</font>
+                  <input type="text" placeholder="Full Name">
+              </div>
+              <!-- Email -->
+              <div class="f-email">
+                  <font>Email</font>
+                  <input type="email" placeholder="Example@gmail.com">
+              </div>
+            </div> 
+             <!--Right  -->
+             <div class="right-form">
+                 <!-- Comment box -->
+                 <div class="message">
+                     <font>Message</font>
+                     <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+                 </div>
+                 <button>Submit</button>
+             </div>
+        </form>
     </div>
     
 </body>
