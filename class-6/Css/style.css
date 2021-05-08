@@ -1,0 +1,28 @@
+.flex-container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bolder;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flex-container > div{
+    width: 20%;
+}
+.box1{
+    background-color: violet;
+    order: 2;
+}
+.box2{
+    background-color: darkcyan;
+    order: 2;
+}
+.box3{
+    background-color: grey;
+}
