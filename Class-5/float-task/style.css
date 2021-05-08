@@ -16,3 +16,12 @@
     text-align: center;
     align-items: center;
 }
+.box3{
+    background-color: yellowgreen;
+    height: 150px;
+    width: 20%;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    clear: both;
+}
