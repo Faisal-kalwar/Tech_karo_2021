@@ -1,0 +1,24 @@
+.gird-container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.gird-container > div{
+    width: 20%;
+}
+.box1{
+    background-color: violet;
+}
+.box2{
+    background-color: darkcyan;
+}
+.box3{
+    background-color: grey;
+}
