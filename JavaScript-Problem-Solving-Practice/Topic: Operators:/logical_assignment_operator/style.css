@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(26, 25, 25);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+form{
+    color: honeydew;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    height: 55vh;
+    width: 30rem;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    align-items: center;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 10px;
+    outline: none;
+    font-weight: bold;
+    color: rgb(80, 79, 79);
+}
+button{
+    padding: 8px 3rem;
+    background-color: rgb(149, 60, 60);
+    color: wheat;
+    font-size: 2rem;
+    font-family: fantasy;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(65, 17, 9);
+}

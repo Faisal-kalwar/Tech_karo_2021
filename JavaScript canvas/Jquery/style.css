@@ -1,0 +1,43 @@
+body{
+    background-color: crimson;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: column;
+}
+h1{
+    font-size: 6em;
+    font-family:cursive;
+}
+input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+}
+button{
+    padding: 10px 3em;
+    background-color: darkorange;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:focus{
+    background-color: rgb(241, 178, 100);
+    outline: none;
+}
+button:active{
+    outline: none;
+    background-color: rgb(146, 82, 3);
+    color: grey;
+}
+button:hover{
+    background-color: goldenrod;
+    outline: none;
+}

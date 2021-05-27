@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(29, 17, 3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+}
+div{
+    background-color: rgb(180, 99, 0);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+input{
+    width: 35vh;
+    height: 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    outline: none;
+}
+button{
+    padding: 10px 3rem;
+    background-color: rgb(109, 16, 0);
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(32, 9, 5);
+}
